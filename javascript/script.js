@@ -1,6 +1,8 @@
 function initializeMatrix(matrixSize) {
-  $('#container').empty(); // Removes any pre-existing cells
+  var cellSize = 1000 / matrixSize;
 
+  $('#container').empty(); // Removes any pre-existing cells
+  
   for (var i = 1; i <= matrixSize; i++) {
 
     $('#container').append('<div class="cell clear-left"></div>'); // First cell clears at left
@@ -10,6 +12,9 @@ function initializeMatrix(matrixSize) {
     }
 
   }
+
+  $('.cell').width(cellSize);
+  $('.cell').height(cellSize);
 
   $('.cell').mouseenter(function() { // Makes cells become painted when mouse enters to them
     $(this).addClass('painted');
