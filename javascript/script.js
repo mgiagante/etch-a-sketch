@@ -12,4 +12,8 @@ $(document).ready(function() {
   $('div').mouseenter(function() {
     $(this).addClass('painted');
   });
+
+  $('button#reset').click(function() {
+    $('.cell').removeClass('painted');
+  });
 });
