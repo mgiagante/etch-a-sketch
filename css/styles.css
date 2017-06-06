@@ -6,15 +6,10 @@
 div.cell {
   width: 30px;
   height: 30px;
-  display: inline-block;
   border: 1px solid;
   float: left;
 }
 
 div.clear-left {
   clear: left; 
-}
-
-div.clear-right {
-  clear: right; 
 }
