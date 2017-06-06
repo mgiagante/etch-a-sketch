@@ -8,4 +8,8 @@ $(document).ready(function() {
     }
 
   }
+
+  $('div').mouseenter(function() {
+    $(this).addClass('painted');
+  });
 });

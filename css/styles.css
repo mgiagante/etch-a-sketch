@@ -13,3 +13,7 @@ div.cell {
 div.clear-left {
   clear: left; 
 }
+
+div.painted {
+  background-color: black;
+}
