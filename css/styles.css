@@ -3,10 +3,14 @@
   padding: 0;
 }
 
+#container {
+  margin: 0 auto;
+  width: 1000px;
+  height: 1000px;
+  border: 1px dotted;
+}
+
 div.cell {
-  width: 30px;
-  height: 30px;
-  border: 1px solid;
   float: left;
 }
 
